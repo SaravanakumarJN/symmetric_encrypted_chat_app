@@ -1,4 +1,4 @@
-# Symmetric Encrypted Group Chat App
+# Symmetric Encrypted Chat App
 
 ### Steps to run the application
 - In terminal, navigate to folder in which you need the clone the application and run `git clone https://github.com/SaravanakumarJN/symmetric_encrypted_chat_app.git`
