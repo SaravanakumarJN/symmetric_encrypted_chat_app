@@ -1,0 +1,89 @@
+.container {
+  width: 400px;
+  height: 600px;
+  margin: 20px auto;
+  padding: 1% 2% 0;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+}
+.username {
+  width: 100%;
+  text-align: start;
+}
+.username > h2 {
+  font-weight: 300;
+  margin: 10px 10px 15px;
+}
+.chat_message {
+  width: 100%;
+  height: 73%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  overflow-y: auto;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  margin: 5px auto 5px 10px;
+}
+.message p {
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  background-color: #e6e6e6;
+  margin: 5px 0px 3px;
+}
+.message span {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.message_right {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  margin: 5px 10px 5px auto;
+}
+.message_right p {
+  font-size: 13px;
+  padding: 10px;
+  text-align: right;
+  border-radius: 10px 0px 10px 10px;
+  background-color: #0873fa;
+  color: white;
+  margin: 5px 0 3px;
+}
+.message_right span {
+  text-align: right;
+  font-weight: 300;
+  font-size: 10px;
+}
+.send {
+  width: 100%;
+  display: flex;
+  margin: 20px 0 0;
+}
+.send > input {
+  border: 1px solid #d9d9d9;
+  height: 40px;
+  width: 80%;
+  padding: 0 3%;
+}
+.send > input:focus {
+  outline: none;
+}
+.send > button {
+  border: none;
+  outline: none;
+  background-color: #0873fa;
+  color: white;
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+}
